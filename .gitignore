@@ -2,3 +2,6 @@ bin
 obj
 *.suo
 .vs
+
+# IGNORE SECRETS CONNECTIONSTRING FILE
+ConnectionStrings.config
