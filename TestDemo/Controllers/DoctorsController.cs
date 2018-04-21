@@ -17,6 +17,7 @@
         // GET: api/Doctors
         public List<Doctor> GetData()
         {
+            string text = "test";
             return objdoctors.GetAllDoctors().ToList();
         }
     }
