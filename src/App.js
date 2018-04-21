@@ -13,6 +13,8 @@ class App extends React.Component {
     this.getItems();
   }
 
+  //hi
+
   getItems(){
     fetch('http://localhost:63234/api/Message/GetMessage/')
     .then(results => results.json())
