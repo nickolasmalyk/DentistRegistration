@@ -9,9 +9,9 @@
     "react-scripts": "1.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "start": "set PORT=9090 && react-scripts start",
+    "build": "set PORT=9090 && react-scripts build",
+    "test": "set PORT=9090 && react-scripts test --env=jsdom",
+    "eject": "set PORT=9090 && react-scripts eject"
   }
 }
