@@ -3,10 +3,17 @@ import * as React from 'react';
 class Footer extends React.Component{
     render(){
         return(
-            <footer>
-            <p>&copy;{(new Date()).getFullYear()} - Softserve Academy</p>
-            <p>Created by Lv-310.Net</p>
-        </footer>
+            <footer className="footer bg-dark fixed-bottom">
+                <div className="copyright container">
+                    <div className="row spacer-25-vertical"/>
+                        <div className="row justify-content-md-center">
+                            <div className="col-md-auto text-light align-self-center">
+                            &copy;{(new Date()).getFullYear()} - Softserve IT Academy. Created by Lv-310.Net  
+                            </div>
+                        </div>
+                    <div className="row spacer-25-vertical"/>     
+                </div>
+            </footer>
         );
     }
 }

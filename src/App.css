@@ -26,3 +26,13 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.copyright
+{
+  height: 50px;
+}
+
+.spacer-25-vertical
+{
+  height: 25%;
+}
