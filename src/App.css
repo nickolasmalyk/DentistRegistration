@@ -29,10 +29,21 @@
 
 .copyright
 {
-  height: 50px;
+  height: 65px;
 }
 
 .spacer-25-vertical
 {
   height: 25%;
+}
+
+.input-form-center {
+  position: fixed !important;
+  top: 10% !important;
+  left: 50% !important;
+  transform: translate(-50%, 0%) !important;
+}
+
+.on-top-of-all{
+  z-index: 100500 !important;
 }

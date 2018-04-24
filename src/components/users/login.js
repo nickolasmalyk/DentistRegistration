@@ -43,11 +43,9 @@ class Login extends React.Component{
     render(){
         return (
        
-            <li className="dropdown">
-                <button className="btn btn-lg dropdown-toggle btn-outline-secondary" data-toggle="dropdown">Log In 
-                    <span className="caret"></span>
-                </button>
-                <ul className="dropdown-menu dropdown-lr animated slideInRight">
+            <li className="dropdown mr-sm-2 my-1">
+                <button className="btn btn-lg btn-outline-secondary text-light" data-toggle="dropdown">Log In</button>
+                <ul className="dropdown-menu dropdown-lr input-form-center on-top-of-all">
                     <div className="col-lg-12">
                         <div className="text-center">
                             <h3><b>Log In</b></h3>
