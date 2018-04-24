@@ -1,37 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
+import * as React from 'react';
 import './App.css';
 
-class App extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      'items': []
-    }
-  }
-  componentDidMount(){
-    this.getItems();
-  }
+import Homepage from './components/pageBuilder/homepage';
 
-  getItems(){
-    fetch('http://localhost:63234/api/Message/GetMessage/')
-    .then(results => results.json())
-    .then(results => this.setState({'items': results}));
-  }
+
+class App extends React.Component {
   render() {
     return (
-      <ul>
-        {this.state.items.map(function(item) {
-          <div>
-          return <h1>{item.Msg}</h1>
-          return <h1>{item.Msg}</h1>
-          </div>
-        }
-
-        )}
-      </ul>
+      <div className="app">
+        <Homepage />
+      </div>
     );
   }
-}
-
+};
 export default App;
